@@ -2,11 +2,12 @@
 
 h1 {text-align: center;
 }
-nav,footer {text-align: center;
+nav,footer, p {text-align: center;
         background-color: steelblue;
         color: white;
         padding:10px ;
 }
+
 
 img {
     width: 80%;
@@ -19,7 +20,11 @@ main p {
     text-align: center;
 }
 
-a {
+body {
     font-size: 1.5em;
+}
+a:hover {
+    background-color: white;
+    color: steel blue;
 }
 
