@@ -1,0 +1,36 @@
+#background {
+    height:725px;
+}
+body {
+    background-color: #758e4f;
+}
+header {
+    background-color: #f26419
+
+}
+nav a:hover {
+    background-color: bisque;
+    color: darkgoldenrod;
+}
+.book, .join {
+    background-color: blanchedalmond;
+    color: brown;
+}
+.book:hover {
+    background-color: aliceblue;
+    color: #f26419;
+}
+
+.icon {
+    width:80px;
+}
+.logo {
+    width:80px;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
