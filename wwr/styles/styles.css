@@ -17,6 +17,11 @@ header {
 h4 {
     color: black;
 }
+nav a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
 nav a:hover {
     background-color: dodgerblue;
     color: black;
@@ -24,10 +29,12 @@ nav a:hover {
 .book {
     background-color: dodgerblue;
     color: black;
+    text-decoration: none;
 }
 .join {
     background-color: blanchedalmond;
     color: black;
+    text-decoration: none;
 }
 .book:hover {
     background-color: dodgerblue;
@@ -40,6 +47,8 @@ nav a:hover {
 
 .icon {
     width: 80px;
+    margin: 0px;
+    height: 100%;
 }
 .logo {
     width: 80px;
@@ -48,7 +57,11 @@ footer {
     background-color: antiquewhite;
     color: black;
 }
-
+footer a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
 footer p {
     font-size: 1.2em;
 }
