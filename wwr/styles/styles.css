@@ -45,11 +45,8 @@ nav a:hover {
     background-color: dodgerblue;
     color: black;
 }
-
 .icon {
-    text-align: center;
-    width: 10px;
-    height: 80%;
+    width: 80px;
 }
 .logo {
     width: 80px;
@@ -72,14 +69,15 @@ footer p a:hover {
 }
 main section {
     text-align: center;
-
 }
 #hero img {
-    width: 60%;
+    width: 100%;
     }
 #hero-msg h1 {
     text-align: center;
 }
-
+.card-image {
+    width: 80%;
+}
 
 
