@@ -66,6 +66,10 @@ main section {
 #hero-msg h1 {
     text-align: center;
 }
-img {
+.home-title {
     max-width: 100%;
 }
+.home-grid {
+    max-height: fit-content;
+}
+
