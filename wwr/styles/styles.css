@@ -76,8 +76,18 @@ main section {
 #hero-msg h1 {
     text-align: center;
 }
-.card-image {
+.rivers-card {
+    text-align: center;
     width: 80%;
 }
+.camping-card {
+    text-align: center;
+    width: 80%;
+}
+.rapids-card {
+    text-align: center;
+    width: 80%;
+}
+
 
 
