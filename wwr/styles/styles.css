@@ -46,10 +46,11 @@ nav a:hover {
     color: black;
 }
 icon {
+    text-align: right;
     width: 80px;
 }
 logo {
-    width: 80px;
+     width: 80px;
 }
 footer {
     background-color: antiquewhite;
@@ -69,6 +70,7 @@ footer p a:hover {
 }
 main section {
     text-align: center;
+    width: auto;
 }
 #hero img {
     width: 100%;
@@ -76,18 +78,11 @@ main section {
 #hero-msg h1 {
     text-align: center;
 }
-.card-img {
-    text-align: center;
-    width: 80%;
+.msg {
+    background-color: #8cc7e2;
 }
-.camping img {
-    text-align: center;
-    width: 80%;
-}
-.rapids-card {
-    text-align: center;
-    width: 80%;
-}
+
+
 
 
 
