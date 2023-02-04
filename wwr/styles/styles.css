@@ -2,7 +2,7 @@
     height:725px;
 }
 body {
-    background-color: #758e4f;
+    background-color: #8cc7e2;
 }
 #content {
     max-width: 1600px;
@@ -13,16 +13,23 @@ header {
 
 }
 nav a:hover {
-    background-color: bisque;
+    background-color: dodgerblue;
     color: darkgoldenrod;
 }
-.book, .join {
+.book {
+    background-color: dodgerblue;
+}
+.join {
     background-color: blanchedalmond;
     color: brown;
 }
 .book:hover {
-    background-color: aliceblue;
+    background-color: dodgerblue;
     color: #f26419;
+}
+.join :hover{ 
+    background-color: dodgerblue;
+
 }
 
 .icon {
@@ -44,5 +51,7 @@ main section {
 }
 #hero img {
     width: 100%;
-    
-  }
+    }
+#hero-msg h1 {
+    text-align: center;
+}
