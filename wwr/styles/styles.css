@@ -8,35 +8,45 @@ body {
     max-width: 1600px;
     margin: 0 auto;
 }
+.home-title {
+    color: black;
+}
 header {
     background-color: #f26419
-
+}
+h4 {
+    color: black;
 }
 nav a:hover {
     background-color: dodgerblue;
-    color: darkgoldenrod;
+    color: black;
 }
 .book {
     background-color: dodgerblue;
+    color: black;
 }
 .join {
     background-color: blanchedalmond;
-    color: brown;
+    color: black;
 }
 .book:hover {
     background-color: dodgerblue;
-    color: #f26419;
+    color: black;
 }
-.join :hover{ 
+.join:hover{  
     background-color: dodgerblue;
-
+    color: black;
 }
 
 .icon {
-    width: 80px;
+    width: 40px;
 }
 .logo {
-    width: 80px;
+    width: 40px;
+}
+footer {
+    background-color: antiquewhite;
+    color: black;
 }
 
 footer p {
@@ -44,6 +54,7 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+    color: black;
 }
 main section {
     text-align: center;
