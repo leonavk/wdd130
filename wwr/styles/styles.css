@@ -1,9 +1,13 @@
+font-family {@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&family=Roboto:wght@300&family=Splash&display=swap');
+    :root {;>
 
+}
 #background {
     text-align: center;
     height:725px;
 }
 body {
+    text-align: center;
     background-color: #8cc7e2;
 }
 #content {
@@ -11,7 +15,7 @@ body {
     margin: 0 auto;
 }
 .home-title {
-
+    font-family: 'Martian Mono' 'Rock Salt';
     color: black;
 }
 header {
@@ -75,6 +79,7 @@ main section {
     width: auto;
 }
 #hero img {
+    text-align: center;
     width: 100%;
     }
 #hero-msg h1 {
