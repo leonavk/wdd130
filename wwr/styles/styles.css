@@ -1,25 +1,36 @@
 font-family {@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&family=Roboto:wght@300&family=Splash&display=swap');
     :root {;>
-
+}
+#logo_link {
+    padding-top: 5px;
 }
 #background {
     text-align: center;
     height:725px;
 }
 body {
-    text-align: center;
     background-color: #8cc7e2;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 .home-title {
-    font-family: 'Martian Mono' 'Rock Salt';
+    font-family: 'Martian Mono', 'Rock Salt' 'sans-serif';
+    font-size:  2em; 
     color: black;
 }
 header {
     background-color: #6b856c
+}
+h2 {
+    color: black
+    margin: 0;
 }
 h4 {
     color: black;
@@ -28,20 +39,26 @@ nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     background-color: dodgerblue;
     color: black;
 }
-.book {
+.book .join {
     background-color: dodgerblue;
     color: black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join {
     background-color: blanchedalmond;
     color: black;
     text-decoration: none;
+    padding: 15px 30px;
 }
 .book:hover {
     background-color: dodgerblue;
@@ -54,6 +71,7 @@ nav a:hover {
 icon {
     text-align: right;
     width: 80px;
+    padding-top: 10px;
 }
 logo {
      width: 80px;
@@ -61,6 +79,7 @@ logo {
 footer {
     background-color: antiquewhite;
     color: black;
+    padding: 25px 50px;
 }
 footer a {
     text-align: center;
@@ -74,19 +93,30 @@ footer p a:hover {
     text-decoration: underline;
     color: black;
 }
-main section {
+footer .social img {
+    padding-top: 15px;
+}
+main section img {
     text-align: center;
     width: auto;
 }
 #hero img {
     text-align: center;
     width: 100%;
+    box-sizing: border-box;
     }
 #hero-msg h1 {
     text-align: center;
 }
 .msg {
     background-color: #8cc7e2;
+    line-height: 1.5em;
+}
+.msg p {
+    padding-bottom: 15px;
+}
+.card-img {
+    border: 10px solid black;
 }
 
 
