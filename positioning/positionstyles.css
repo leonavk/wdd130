@@ -35,23 +35,34 @@
 .content2 {
   /* This is the parent of the activity 2 boxes. */
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: none
+    "red2"
+    "green2"
+    "yellow2"
+    "blue2";
 }
 .red2 {
+  grid-area: red2;
   width: 100px; 
   height: 100px; 
   background-color: red; 
 } 
 .green2 { 
+  grid-area: green2;
   width: 100px; 
   height: 100px; 
   background-color: green; 
 } 
 .yellow2 {
+  grid-area: yellow2;
   width: 100px; 
   height: 100px; 
   background-color: gold; 
 } 
 .blue2 {
+  grid-area: blue2;
   width: 100px; 
   height: 100px; 
   background-color: blue; 
