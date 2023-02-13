@@ -150,7 +150,7 @@
 }
 .red5 { 
   width: 100%; 
-  height: 200px; 
+  height: 100px; 
   background-color: red; 
 } 
 .green5 { 
@@ -162,7 +162,7 @@
 } 
 .yellow5 {
   width: 100%; 
-  height: 100px; 
+  height: 200px; 
   background-color: gold; 
   text-align: center;
   font-size: smaller;
@@ -170,7 +170,7 @@
 } 
 .blue5 {
   width: 100%; 
-  height: 200px; 
+  height: 100px; 
   background-color: blue; 
 } 
 /* Activity 6 styles */ 
