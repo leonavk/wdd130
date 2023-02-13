@@ -173,10 +173,16 @@
   height: 100px; 
   background-color: blue; 
 } 
+
+
 /* Activity 6 styles */ 
 .content6 {
   display: grid;
   /* This is the parent of the activity 6 boxes. */
+  z-index: -1;
+  position: absolute;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
 }
 .red6 {
   width: 100px; 
