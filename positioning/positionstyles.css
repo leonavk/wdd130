@@ -200,9 +200,9 @@
 } 
 .yellow6 {
   width: 200px; 
-  height: 400px; 
+  height: 600px; 
   background-color: gold; 
-  grid-column: 5/6;
+  grid-column: 5/7;
   grid-row: 3/6;
 } 
 .blue6 {
