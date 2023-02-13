@@ -85,14 +85,13 @@
   grid-column: span;
 } 
 .green3 {
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 200px; 
   background-color: green;
-  grid-gap: 20px;
 } 
 .yellow3 {
-  width: 100px; 
-  height: 100px; 
+  width: 200px; 
+  height: 200px; 
   background-color: gold; 
 } 
 .blue3 {
