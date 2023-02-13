@@ -43,7 +43,7 @@
   width: 50px; 
   height: 50px; 
   background-color: red; 
-  float: left;
+  
   
  }  
 .green2 { 
@@ -67,24 +67,28 @@
   height: 50px; 
   background-color: blue; 
   
+  
 
 } 
 /* Activity 3 styles */ 
 .content3 {
   /* This is the parent of the activity 3 boxes. */
   display: grid;
+  grid-column: 1/3;
 
   grid-gap: 20px;
 }
 .red3 {
   width: 100px; 
   height: 100px; 
-  background-color: red; 
+  background-color: red;
+  grid-column: span;
 } 
 .green3 {
   width: 100px; 
   height: 100px; 
   background-color: green;
+  grid-gap: 20px;
 } 
 .yellow3 {
   width: 100px; 
@@ -95,6 +99,7 @@
   width: 100px;
   height: 100px; 
   background-color: blue; 
+  grid-column: span;
 } 
 /* Activity 4 styles */ 
 .content4 {
