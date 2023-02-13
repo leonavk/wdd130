@@ -200,7 +200,7 @@
 } 
 .yellow6 {
   width: 200px; 
-  height: 600px; 
+  height: 400px; 
   background-color: gold; 
   grid-column: 5/6;
   grid-row: 3/6;
