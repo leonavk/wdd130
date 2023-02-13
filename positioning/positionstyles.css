@@ -44,6 +44,9 @@
   height: 50px; 
   background-color: red; 
   position: relative;
+  left: 50px;
+  top: 20px;
+  
   
 } 
 .green2 { 
