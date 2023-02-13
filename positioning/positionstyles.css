@@ -75,37 +75,32 @@
   /* This is the parent of the activity 3 boxes. */
   display: grid;
   grid-template-columns: 1/5;
-  grid-template-rows: auto;
-  grid-template-areas:
-  "red3 red3 red3 red3"
-  "green3 green3 . yellow3 yellow3"
-  "blue3 blue3 blue3 blue3";
-}
+  
+  
 
 .red3 {
   width: 100%; 
   height: 100px; 
   background-color: red;
-  grid-area: red3;
-  
 } 
+
 .green3 {
   width: 200px; 
   height: 200px; 
   background-color: green;
-  grid-area: green3;
+  
 } 
 .yellow3 {
   width: 200px; 
   height: 200px; 
   background-color: gold; 
-  grid-area: yellow3;
+  
 } 
 .blue3 {
   width: 100%;
   height: 100px; 
   background-color: blue; 
-  grid-area: blue3;
+  
   
 } 
 /* Activity 4 styles */ 
