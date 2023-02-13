@@ -38,7 +38,7 @@
   /* This is the parent of the activity 2 boxes. */
   display: grid;
   grid-template-columns: 50px 50px 50px 50px 50px;
-  margin-top: -50;
+  margin-top: -50px;
 }
 
 .red2 {
@@ -75,7 +75,9 @@
   /* This is the parent of the activity 3 boxes. */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-content: center;
+  justify-items: center;
+  grid-gap: 30px;
+
 }
   
   
