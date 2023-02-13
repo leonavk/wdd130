@@ -76,6 +76,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
+  grid-column-gap: 30px;
 }
   
 .red3 {
@@ -130,6 +131,8 @@
   height: 100px; 
   background-color: blue; 
 } 
+
+
 /* Activity 5 styles */ 
 .content5 {
   /* This is the parent of the activity 5 boxes. */
