@@ -122,19 +122,19 @@
   grid-row: 1/4;
 } 
 .green4 {
-  width: 100%; 
+  width: 400px; 
   height: 200px; 
   background-color: green; 
   grid-row:1/2 ;
 } 
 .yellow4 {
-  width: 200px; 
+  width: 400px; 
   height: 200px; 
   background-color: gold; 
   grid-row: 2/3;
 } 
 .blue4 {
-  width: 200px; 
+  width: 400px; 
   height: 200px; 
   background-color: blue; 
   grid-row: 3/4;
