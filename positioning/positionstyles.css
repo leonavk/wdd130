@@ -76,10 +76,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-items: center;
-
-
 }
-  
   
 .red3 {
   width: 100%; 
@@ -89,13 +86,13 @@
 } 
 
 .green3 {
-  width: 300px; 
+  width: 400px; 
   height: 200px; 
   background-color: green;
   
 } 
 .yellow3 {
-  width: 300px; 
+  width: 400px; 
   height: 200px; 
   background-color: gold; 
   
