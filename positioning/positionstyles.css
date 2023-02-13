@@ -179,14 +179,13 @@
 .content6 {
   display: grid;
   /* This is the parent of the activity 6 boxes. */
-  z-index: -1;
-  position: absolute;
+  
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-auto-rows: 6;
 
 }
 .red6 {
-  width: 100px; 
+  width: 400px; 
   height: 100px; 
   background-color: red; 
   grid-column: 1/5;
