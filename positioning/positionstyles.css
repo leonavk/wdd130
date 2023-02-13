@@ -38,8 +38,7 @@
   /* This is the parent of the activity 2 boxes. */
   display: grid;
   grid-template-columns: 50px 50px 50px 50px 50px;
-  margin-top: -50px;
-  margin-left: -50px;
+
 }
 
 .red2 {
@@ -90,13 +89,13 @@
 } 
 
 .green3 {
-  width: 200px; 
+  width: 300px; 
   height: 200px; 
   background-color: green;
   
 } 
 .yellow3 {
-  width: 200px; 
+  width: 300px; 
   height: 200px; 
   background-color: gold; 
   
